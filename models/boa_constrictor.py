@@ -9,7 +9,7 @@ class Boa_Constrictor():
         self.__ratones_comidos = ratones_comidos
 
     def alimentar_boa(self):
-        if self.__ratones_comidos == 10:
+        if self.__ratones_comidos == 20:
             raise ValueError("Demasiados ratones!")
         self.__ratones_comidos +=1
         return self.__ratones_comidos

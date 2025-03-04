@@ -33,7 +33,7 @@ class TestGuarderia(unittest.TestCase):
 
     def test_alimentar_boa_llena(self):
 
-        boa1 = Boa_Constrictor('Juan', 20, 5, 'Brasil', 20.1, 10)
+        boa1 = Boa_Constrictor('Juan', 20, 5, 'Brasil', 20.1, 20)
         boa2 = Boa_Constrictor('Carlos', 10, 2, 'Chile', 11.2, 5)
 
         guarderia = Guarderia()
